@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Task 23</title>
+    <title>Task 24</title>
 </head>
 <body>
     <h2>CatPhotoApp</h2>
@@ -26,26 +26,14 @@
             <li>other cats</li>
         </ol>
         <form action="https://www.freecatphotoapp.com/submit-cat-photo">
+            <label for="indoor"><input id="indoor" value="indoor" type="radio" name="indoor-outdoor"> Indoor</label>
+            <label for="outdoor"><input id="outdoor" value="outdoor" type="radio" name="indoor-outdoor"> Outdoor</label><br>
+            <label for="loving"><input id="loving" value="loving" type="checkbox" name="personality"> Loving</label>
+            <label for="lazy"><input id="lazy" value="lazy" type="checkbox" name="personality"> Lazy</label>
+            <label for="energetic"><input id="energetic" value="energetic" type="checkbox" name="personality"> Energetic</label><br>
             <input type="text" placeholder="cat photo URL" required>
             <button type="submit">Submit</button>
-            <br>
-            <label for="indoor">
-                <input id="indoor" type="radio" name="indoor-outdoor">Indoor
-            </label>
-            <label for="outdoor">
-                <input id="outdoor" type="radio" name="indoor-outdoor">Outdoor
-            </label>
-            <br>
-            <label for="loving">
-                <input id="loving" type="checkbox" name="personality">Loving
-            </label>
-            <label for="caring">
-                <input id="caring" type="checkbox" name="personality">Caring
-            </label>
-            <label for="thoughtful">
-                <input id="thoughtful" type="checkbox" name="personality">Thoughtful
-            </label>
-        </form>
+          </form>
     </main>
 </body>
 </html>
